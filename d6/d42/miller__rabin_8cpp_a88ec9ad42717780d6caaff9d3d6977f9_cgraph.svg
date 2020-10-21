@@ -127,17 +127,17 @@ var sectionId = 'dynsection-6';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d0/d6d/modular__exponentiation_8cpp.html#a8a7655c2927fad63fd12510f213b0fd3" target="_top" xlink:title="This function calculates a raised to exponent b under modulo c using modular exponentiation.">
-<polygon fill="white" stroke="black" points="376,-38.5 376,-57.5 419,-57.5 419,-38.5 376,-38.5"/>
-<text text-anchor="middle" x="397.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">power</text>
+<g id="a_node9"><a xlink:href="../../dd/d47/namespacemath.html#a0798feb8c0301c51a7907ba842cb4490" target="_top" xlink:title="This function calculates a raised to exponent b under modulo c using modular exponentiation.">
+<polygon fill="white" stroke="black" points="362,-38.5 362,-57.5 433,-57.5 433,-38.5 362,-38.5"/>
+<text text-anchor="middle" x="397.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">math::power</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node4&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M302.14,-48C321.45,-48 346.43,-48 365.84,-48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="365.98,-51.5 375.98,-48 365.98,-44.5 365.98,-51.5"/>
+<path fill="none" stroke="midnightblue" d="M302.14,-48C316.9,-48 334.97,-48 351.34,-48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="351.79,-51.5 361.79,-48 351.79,-44.5 351.79,-51.5"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
@@ -211,8 +211,8 @@ var sectionId = 'dynsection-6';
 <!-- Node9&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
 <title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M419.25,-48C446.7,-48 495.06,-48 524.64,-48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="524.98,-51.5 534.98,-48 524.98,-44.5 524.98,-51.5"/>
+<path fill="none" stroke="midnightblue" d="M433.26,-48C461.11,-48 499.54,-48 524.58,-48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="524.74,-51.5 534.74,-48 524.74,-44.5 524.74,-51.5"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
