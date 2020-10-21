@@ -36,7 +36,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../dd/d47/namespacemath.html#a0798feb8c0301c51a7907ba842cb4490" target="_top" xlink:title="This function calculates a raised to exponent b under modulo c using modular exponentiation.">
+<g id="a_node6"><a xlink:href="../../dd/d47/namespacemath.html#afcd07701d73ed65cd616bcba02737f3d" target="_top" xlink:title="This function calculates a raised to exponent b under modulo c using modular exponentiation.">
 <polygon fill="white" stroke="black" points="122,-38.5 122,-57.5 193,-57.5 193,-38.5 122,-38.5"/>
 <text text-anchor="middle" x="157.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">math::power</text>
 </a>

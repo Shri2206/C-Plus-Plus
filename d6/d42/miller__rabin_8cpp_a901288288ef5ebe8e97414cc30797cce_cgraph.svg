@@ -97,7 +97,7 @@ var sectionId = 'dynsection-2';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../dd/d47/namespacemath.html#a0798feb8c0301c51a7907ba842cb4490" target="_top" xlink:title="This function calculates a raised to exponent b under modulo c using modular exponentiation.">
+<g id="a_node7"><a xlink:href="../../dd/d47/namespacemath.html#afcd07701d73ed65cd616bcba02737f3d" target="_top" xlink:title="This function calculates a raised to exponent b under modulo c using modular exponentiation.">
 <polygon fill="white" stroke="black" points="288,-38.5 288,-57.5 359,-57.5 359,-38.5 288,-38.5"/>
 <text text-anchor="middle" x="323.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">math::power</text>
 </a>

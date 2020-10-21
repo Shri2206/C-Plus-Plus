@@ -116,9 +116,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0798feb8c0301c51a7907ba842cb4490"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/namespacemath.html#a0798feb8c0301c51a7907ba842cb4490">math::power</a> (int a, unsigned int b, int c)</td></tr>
-<tr class="memdesc:a0798feb8c0301c51a7907ba842cb4490"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function calculates a raised to exponent b under modulo c using modular exponentiation.  <a href="../../dd/d47/namespacemath.html#a0798feb8c0301c51a7907ba842cb4490">More...</a><br /></td></tr>
-<tr class="separator:a0798feb8c0301c51a7907ba842cb4490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcd07701d73ed65cd616bcba02737f3d"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d47/namespacemath.html#afcd07701d73ed65cd616bcba02737f3d">math::power</a> (uint64_t a, uint64_t b, uint64_t c)</td></tr>
+<tr class="memdesc:afcd07701d73ed65cd616bcba02737f3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function calculates a raised to exponent b under modulo c using modular exponentiation.  <a href="../../dd/d47/namespacemath.html#afcd07701d73ed65cd616bcba02737f3d">More...</a><br /></td></tr>
+<tr class="separator:afcd07701d73ed65cd616bcba02737f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6d/modular__exponentiation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function.  <a href="../../d0/d6d/modular__exponentiation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">More...</a><br /></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,19 +150,19 @@ Functions</h2></td></tr>
 <p><a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; "The value of "&lt;&lt;num1&lt;&lt;" raised to exponent "&lt;&lt;num2&lt;&lt;" 
 " under modulo "&lt;&lt;m&lt;&lt;" is " &lt;&lt; power(num1, num2, m); <br  />
 </p>
-<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;{   <span class="comment"></span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">    /// Give two numbers num1, num2 and modulo m</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment"></span>    <span class="keywordtype">int</span> num1 = 2; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">int</span> num2 = 5; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">int</span> m = 13; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The value of &quot;</span>&lt;&lt;num1&lt;&lt;<span class="stringliteral">&quot; raised to exponent &quot;</span>&lt;&lt;num2&lt;&lt; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="stringliteral">&quot; under modulo &quot;</span>&lt;&lt;m&lt;&lt;<span class="stringliteral">&quot; is &quot;</span> &lt;&lt; <a class="code" href="../../dd/d47/namespacemath.html#a0798feb8c0301c51a7907ba842cb4490">math::power</a>(num1, num2, m); <span class="comment"></span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">    /// std::cout &lt;&lt; &quot;The value of &quot;&lt;&lt;num1&lt;&lt;&quot; raised to exponent &quot;&lt;&lt;num2&lt;&lt;&quot; </span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">    /// &quot; under modulo &quot;&lt;&lt;m&lt;&lt;&quot; is &quot; &lt;&lt; power(num1, num2, m); </span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;} </div>
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;{   <span class="comment"></span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">    /// Give two numbers num1, num2 and modulo m</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment"></span>    uint64_t num1 = 2; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    uint64_t num2 = 5; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    uint64_t m = 13; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The value of &quot;</span>&lt;&lt;num1&lt;&lt;<span class="stringliteral">&quot; raised to exponent &quot;</span>&lt;&lt;num2&lt;&lt; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="stringliteral">&quot; under modulo &quot;</span>&lt;&lt;m&lt;&lt;<span class="stringliteral">&quot; is &quot;</span> &lt;&lt; <a class="code" href="../../dd/d47/namespacemath.html#afcd07701d73ed65cd616bcba02737f3d">math::power</a>(num1, num2, m); <span class="comment"></span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">    /// std::cout &lt;&lt; &quot;The value of &quot;&lt;&lt;num1&lt;&lt;&quot; raised to exponent &quot;&lt;&lt;num2&lt;&lt;&quot; </span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">    /// &quot; under modulo &quot;&lt;&lt;m&lt;&lt;&quot; is &quot; &lt;&lt; power(num1, num2, m); </span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;} </div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -175,7 +175,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
-<div class="ttc" id="anamespacemath_html_a0798feb8c0301c51a7907ba842cb4490"><div class="ttname"><a href="../../dd/d47/namespacemath.html#a0798feb8c0301c51a7907ba842cb4490">math::power</a></div><div class="ttdeci">int power(int a, unsigned int b, int c)</div><div class="ttdoc">This function calculates a raised to exponent b under modulo c using modular exponentiation.</div><div class="ttdef"><b>Definition:</b> modular_exponentiation.cpp:33</div></div>
+<div class="ttc" id="anamespacemath_html_afcd07701d73ed65cd616bcba02737f3d"><div class="ttname"><a href="../../dd/d47/namespacemath.html#afcd07701d73ed65cd616bcba02737f3d">math::power</a></div><div class="ttdeci">uint64_t power(uint64_t a, uint64_t b, uint64_t c)</div><div class="ttdoc">This function calculates a raised to exponent b under modulo c using modular exponentiation.</div><div class="ttdef"><b>Definition:</b> modular_exponentiation.cpp:34</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
