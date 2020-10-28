@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('dd/d47/namespacemath.html','../../'); 
 </div><!--header-->
 <div class="contents">
 
-<p>for assert  
+<p>for io operations  
 <a href="../../dd/d47/namespacemath.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -107,8 +107,8 @@ Functions</h2></td></tr>
 <tr class="separator:afcd07701d73ed65cd616bcba02737f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>for assert </p>
-<p>for io operations</p>
+<div class="textblock"><p>for io operations </p>
+<p>for assert</p>
 <p>Mathematical algorithms </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="afcd07701d73ed65cd616bcba02737f3d"></a>
@@ -154,32 +154,28 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a raised to power b modulo c </dd></dl>
 <p>Initialize the answer to be returned</p>
-<p>Update a if it is more than or equal to c <br  />
-</p>
+<p>Update a if it is more than or equal to c</p>
 <p>In case a is divisible by c;</p>
 <p>If b is odd, multiply a with answer</p>
 <p>b must be even now</p>
 <p>b = b/2</p>
-<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    { </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        uint64_t <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a> = 1;           <span class="comment">/// Initialize the answer to be returned </span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"></span>        a = a % c;                  <span class="comment">/// Update a if it is more than or equal to c  </span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment"></span>        <span class="keywordflow">if</span> (a == 0) </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">return</span> 0;               <span class="comment">/// In case a is divisible by c; </span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment"></span>        }</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">while</span> (b &gt; 0) </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        { <span class="comment"></span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">            /// If b is odd, multiply a with answer </span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"></span>            <span class="keywordflow">if</span> (b &amp; 1) </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a> = (<a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a>*a) % c; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            }<span class="comment"></span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">            /// b must be even now </span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment"></span>            b = b&gt;&gt;1;               <span class="comment">/// b = b/2 </span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment"></span>            a = (a*a) % c; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a>; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                                   {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    uint64_t <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a> = 1;  <span class="comment">/// Initialize the answer to be returned</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"></span>    a = a % c;         <span class="comment">/// Update a if it is more than or equal to c</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"></span>    <span class="keywordflow">if</span> (a == 0) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> 0;  <span class="comment">/// In case a is divisible by c;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"></span>    }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">while</span> (b &gt; 0) {<span class="comment"></span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">        /// If b is odd, multiply a with answer</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"></span>        <span class="keywordflow">if</span> (b &amp; 1) {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a> = (<a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a> * a) % c;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }<span class="comment"></span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">        /// b must be even now</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"></span>        b = b &gt;&gt; 1;  <span class="comment">/// b = b/2</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"></span>        a = (a * a) % c;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d35/matrix__exponentiation_8cpp.html#ad8389ed58fd0ec66df248014775ad1fa">ans</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
