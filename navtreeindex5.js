@@ -1,5 +1,12 @@
 var NAVTREEINDEX5 =
 {
+"dd/d0c/hamiltons__cycle_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[8,0,5,4,1],
+"dd/d0c/hamiltons__cycle_8cpp.html#a45d94ead4cf4e1ff9f87c38bc99f59ae":[8,0,5,4,3],
+"dd/d0c/hamiltons__cycle_8cpp.html#ae7880ce913f3058a35ff106d5be9e243":[8,0,5,4,2],
+"dd/d0d/insertion__sort_8cpp.html":[8,0,16,5],
+"dd/d0d/insertion__sort_8cpp.html#a59914553f24088342c139645a02a8a49":[8,0,16,5,0],
+"dd/d0d/insertion__sort_8cpp.html#a78cb2f3b97b6db2c062b2a1df05c9ea9":[8,0,16,5,2],
+"dd/d0d/insertion__sort_8cpp.html#a88ec9ad42717780d6caaff9d3d6977f9":[8,0,16,5,4],
 "dd/d0d/insertion__sort_8cpp.html#a8fe6bac9e03f58abcc2ce26ef3de1b5f":[8,0,16,5,1],
 "dd/d0d/insertion__sort_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,16,5,3],
 "dd/d12/vigenere__cipher_8cpp.html":[8,0,1,2],
@@ -174,8 +181,8 @@ var NAVTREEINDEX5 =
 "df/dc8/successive__approximation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,11,15,2],
 "df/dc8/successive__approximation_8cpp.html#ae89c36add7c55298c5195d0a83de1456":[8,0,11,15,1],
 "df/dcb/namespacestrings.html":[6,0,38],
-"df/dce/namespacegraph.html":[7,0,4],
 "df/dce/namespacegraph.html":[6,0,9],
+"df/dce/namespacegraph.html":[7,0,4],
 "df/dd0/queue__using__two__stacks_8cpp.html":[8,0,2,9],
 "df/dd0/queue__using__two__stacks_8cpp.html#a831ded10ecad88c14a8e22b96f4c1863":[8,0,2,9,1],
 "df/dd0/queue__using__two__stacks_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,2,9,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX5 =
 "functions_type.html":[7,3,3],
 "functions_u.html":[7,3,0,20],
 "functions_v.html":[7,3,0,21],
-"functions_vars.html":[7,3,2],
-"functions_w.html":[7,3,0,22],
-"functions_x.html":[7,3,0,23],
-"functions_y.html":[7,3,0,24],
-"functions_~.html":[7,3,0,25],
-"globals.html":[8,1,0,0],
-"globals.html":[8,1,0],
-"globals_a.html":[8,1,0,1]
+"functions_vars.html":[7,3,2]
 };
