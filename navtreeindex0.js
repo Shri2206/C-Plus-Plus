@@ -1,5 +1,12 @@
 var NAVTREEINDEX0 =
 {
+"":[7,0,1,0],
+"":[7,0,3,0],
+"":[7,0,7,0],
+"":[7,0,9,0],
+"":[7,0,4,0],
+"":[7,0,6,0],
+"":[7,0,6,0,0],
 "annotated.html":[7,0],
 "classes.html":[7,1],
 "d0/d01/smallest__circle_8cpp.html":[8,0,12,12],
@@ -38,6 +45,7 @@ var NAVTREEINDEX0 =
 "d0/d65/namespacedouble__hashing.html":[6,0,6],
 "d0/d65/namespacedouble__hashing.html":[7,0,2],
 "d0/d6d/modular__exponentiation_8cpp.html":[8,0,10,21],
+"d0/d6d/modular__exponentiation_8cpp.html#aa8dca7b867074164d5f45b0f3851269d":[8,0,10,21,2],
 "d0/d6d/modular__exponentiation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,10,21,0],
 "d0/d6d/modular__exponentiation_8cpp.html#afcd07701d73ed65cd616bcba02737f3d":[8,0,10,21,1],
 "d0/d6f/namespaceothers.html":[7,0,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX0 =
 "d3/d06/ode__semi__implicit__euler_8cpp.html":[8,0,11,11],
 "d3/d06/ode__semi__implicit__euler_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97":[8,0,11,11,1],
 "d3/d06/ode__semi__implicit__euler_8cpp.html#aa13517b8e5de1b75592052db7f7e237f":[8,0,11,11,3],
-"d3/d06/ode__semi__implicit__euler_8cpp.html#abaeae8f62a018d197f0187a1c80a90fe":[8,0,11,11,2],
-"d3/d06/ode__semi__implicit__euler_8cpp.html#af3adf7b092a87868917ee5fb4255192b":[8,0,11,11,0],
-"d3/d17/namespaceutil__functions.html":[6,0,39],
-"d3/d19/sparse__matrix_8cpp.html":[8,0,12,13],
-"d3/d19/sparse__matrix_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,12,13,0],
-"d3/d24/qr__decomposition_8cpp.html":[8,0,11,13],
-"d3/d24/qr__decomposition_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe":[8,0,11,13,0],
-"d3/d26/binary__search__tree_8cpp.html":[8,0,2,2],
-"d3/d26/binary__search__tree_8cpp.html#a13dac1586cbb95ebfd63dc47aeeff0e1":[8,0,2,2,9]
+"d3/d06/ode__semi__implicit__euler_8cpp.html#abaeae8f62a018d197f0187a1c80a90fe":[8,0,11,11,2]
 };
